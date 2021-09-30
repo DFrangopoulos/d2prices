@@ -44,7 +44,6 @@ void update_entry(char **sql_query, sqlite3 **db, char **err_msg, int *code, uin
 //----> loop over prices.length 
 //----> prices[n](varlong) 1-8 * n bytes
 
-
 int main(int argc, char **argv){
 
     //SQLDB
