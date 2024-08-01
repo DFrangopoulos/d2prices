@@ -1,6 +1,6 @@
 cmake-*
 .idea/
 .vscode/
-.pdf
-.drawio
-.swf
+*.pdf
+*.drawio
+*.swf
