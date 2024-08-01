@@ -111,6 +111,8 @@ int main(int argc, char **argv){
 
             protocol_id = get_protocol_id(latest_packet);
             stream_byte_cursor++;
+            printf("Found id -> %d (%02x%02x)\n",protocol_id,latest_packet[0],latest_packet[1]);
+            continue;
             if (protocol_id == target_id){
                 pkt_s_field_s = get_pkt_s_field_s(latest_packet);
                 stream_byte_cursor++;
